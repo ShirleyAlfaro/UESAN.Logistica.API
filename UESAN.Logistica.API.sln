@@ -1,0 +1,25 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.14.36429.23 d17.14
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "UESAN.Logistica.API", "UESAN.Logistica.API\UESAN.Logistica.API.csproj", "{9926BE4C-120D-4443-9F62-CDB86C524B28}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{9926BE4C-120D-4443-9F62-CDB86C524B28}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{9926BE4C-120D-4443-9F62-CDB86C524B28}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{9926BE4C-120D-4443-9F62-CDB86C524B28}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{9926BE4C-120D-4443-9F62-CDB86C524B28}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {2C4580EF-BC01-4767-82D0-37EB95D88639}
+	EndGlobalSection
+EndGlobal
