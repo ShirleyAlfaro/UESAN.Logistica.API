@@ -15,6 +15,8 @@ public partial class LogisticDbContext : DbContext
     {
     }
 
+    public virtual DbSet<Categoria> Categoria { get; set; }
+
     public virtual DbSet<Products> Products { get; set; }
 
     protected override void OnConfiguring(DbContextOptionsBuilder optionsBuilder)
@@ -23,6 +25,14 @@ public partial class LogisticDbContext : DbContext
 
     protected override void OnModelCreating(ModelBuilder modelBuilder)
     {
+        modelBuilder.Entity<Categoria>(entity =>
+        {
+            entity.HasKey(e => e.Id).HasName("PK__Categori__3214EC07F0DAD8DC");
+
+            entity.Property(e => e.Descripcion).HasMaxLength(100);
+            entity.Property(e => e.Nombre).HasMaxLength(100);
+        });
+
         modelBuilder.Entity<Products>(entity =>
         {
             entity.HasKey(e => e.Id).HasName("PK__Products__3214EC0775469585");
